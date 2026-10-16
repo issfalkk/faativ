@@ -1,6 +1,7 @@
-from sqlalchemy import create_engine, String, Integer, Float, ForeignKey
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+#este arquivo é resposável por criar as classes
 
+from sqlalchemy import String, Integer, Float, ForeignKey
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 class Base(DeclarativeBase):
     pass
